@@ -593,8 +593,6 @@ main {
   box-shadow: var(--shadow-1);
 }
 
-.testimonials-item-title { margin-bottom: 7px; }
-
 .testimonials-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
@@ -1430,8 +1428,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   .testimonials-avatar-box img { width: 80px; }
 
   .testimonials-item-title {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px;
     margin-left: 95px;
+     */
+     margin: 2%;
+     padding: 1%;
+     text-align: center;
   }
 
   .testimonials-text {
